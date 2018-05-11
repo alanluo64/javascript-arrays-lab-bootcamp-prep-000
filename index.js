@@ -21,3 +21,5 @@ function appendKitten(Broom) {
   kittens.push('Broom')
   return kittens
 }
+
+function prependKitten(name)
