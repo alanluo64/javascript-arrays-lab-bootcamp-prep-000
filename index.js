@@ -25,4 +25,6 @@ function prependKitten(Arnold) {
   return [Arnold, ...kittens]
 }
 
-function removeLastKitten()
+function removeLastKitten() {
+  kittens.push(kittens)
+}
